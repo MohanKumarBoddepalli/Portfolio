@@ -1,0 +1,54 @@
+aboutContainer {
+  content: center;
+  padding: 10px;
+
+}
+
+.welcomeAnimation {
+  font-family: "Noto Serif Toto", sans-serif;
+  width: 50%;
+  height: 50px
+}
+
+.welcomeAnimation text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365FA0;
+  font-size: 100px;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 1;
+  }
+
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+  }
+
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-width: 1;
+  }
+
+  100% {
+    fill: rgba(255, 255, 255, 0.586);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcomeAnimation text {
+    font-size: 12vmin;
+    /* Use vmin for font size on smaller screens */
+  }
+}

@@ -1,9 +1,10 @@
 import {HashRouter, Route, Routes} from 'react-router-dom'
-import Contacts  from './contact';
-import About from './about';
+import Projects  from './projects/projects';
+import Experience from './experience';
 import Main from './main'
 import Nav from './Navigation';
 import './App.css';
+import Footer from './footer'
 
 
 function App() {
@@ -17,16 +18,17 @@ function App() {
           >
         </Route>
         <Route                
-          path='/about' 
-          element={<About />}
+          path='/experience' 
+          element={<Experience />}
         >
         </Route>
         <Route 
-          path='/contact'
-          element={<Contacts />}
+          path='/projects'
+          element={<Projects />}
         >
         </Route>
       </Routes>
+      <Footer/>
 
     </HashRouter>
   );
