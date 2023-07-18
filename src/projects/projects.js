@@ -2,7 +2,7 @@ import './projects.css'
 const Projects = () => {
   return (
     <div>
-      <h3>mona34</h3>
+      <h3>Need to work...</h3>
 
     </div>
 

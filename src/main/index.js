@@ -7,18 +7,30 @@ function Portfolio() {
 
   return (
     <div className="aboutContainer">
-      <div className="">
-        <svg className='welcomeAnimation'>
-          <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-            welcome
-          </text>
-        </svg>
-      </div>
-      <div>
-        <p>mohan2</p>
-      </div>
-      <div>
-        <p>mohan3</p>
+      <svg className='welcomeAnimation' style={{ width: 'fit-content' }} >
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle" style={{ fontSize: 50, width: 'fit-content' }}>
+          welcome
+        </text>
+      </svg>
+      <div className="aboutContentcontainer">
+        <div className="side-by-side">
+          <text> My name is Mohan Kumar Boddepalli i'm a impassioned and devoted
+            software engineer specializing in web development,
+            proficient in 
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>NodeJS</li>
+              <li>PostgreSQL, and Redis</li>
+            </ul>
+            Beyond my professional pursuits, I ardently explores new technologies during my free time,
+            relentlessly expanding my expertise.
+            My driving force is the aspiration to create a meaningful and
+            positive impact through my work across diverse technological domains.</text>
+        </div>
+        <div className="side-by-side side-by-right">
+          <img className='profileImage' src={profile}></img>
+        </div>
       </div>
     </div>
   );

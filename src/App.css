@@ -1,6 +1,7 @@
 :root {
     background-color: #004a54;
     color: rgba(213, 213, 213, 0.553);
+    user-select: none;
 }
 
 .icon-list {
