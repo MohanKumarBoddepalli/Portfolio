@@ -1,36 +1,16 @@
-import {HashRouter, Route, Routes} from 'react-router-dom'
-import Projects  from './projects/projects';
-import Experience from './experience';
-import Main from './main'
-import Nav from './Navigation';
+import './assets/main.css'
 import './App.css';
-import Footer from './footer'
-
+import Profile from './component/profile/index'
+import Skills from './component/skills';
 
 function App() {
   return (
-    <HashRouter>
-      <Nav/>
-      <Routes>
-        <Route
-          path='/'
-          element={<Main />}
-          >
-        </Route>
-        <Route                
-          path='/experience' 
-          element={<Experience />}
-        >
-        </Route>
-        <Route 
-          path='/projects'
-          element={<Projects />}
-        >
-        </Route>
-      </Routes>
-      <Footer/>
-
-    </HashRouter>
+    <div className='grid grid-cols-1'>
+      <Profile />
+      <div className='flex flex-col gap-10 lg:px-10'>
+        <Skills />
+      </div>
+    </div>
   );
 }
 

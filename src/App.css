@@ -1,46 +1,4 @@
 :root {
-    background-color: #004a54;
-    color: rgba(213, 213, 213, 0.553);
-    user-select: none;
-}
-
-.icon-list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;}
-
-.left-list {
-    margin-right: auto;
-    left: 0;
-    top: 0;
-
-}
-
-.right-list {
-    margin-left: auto;
-    right: 0;
-    top: 0;
-
-}
-
-.icon-list li {
-    margin: 0 10px;
-}
-
-.icon-list li a {
-    display: flex;
-    color: rgba(213, 213, 213, 0.553);;
-    transition: background-color 0.3s ease;
-}
-
-.icon-list li a:hover {
-    color: #ffffff;
-    /* Adjust hover background color */
+    background-color: #0a192f;
+    color: aliceblue;
 }
