@@ -15,6 +15,13 @@ const skills = {
   Database: [
     'Postgres',
     'Redis'
+  ],
+  Others: [
+    'Cors',
+    'Bull',
+    'Session',
+    'Building middlewares',
+    'port proxy'
   ]
 
 }
