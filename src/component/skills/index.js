@@ -20,7 +20,7 @@ function generateRandomColor() {
 const Skills = () => {
 
   return (
-    <div className='flex flex-1 flex-col '>
+    <div className='flex flex-1 flex-col'>
       <div className='flex flex-1 flex-col p-2 text-lg leading-9 font-bold'>Proficiencies</div>
       <div className='grid grid-cols-1 rounded-md sm:grid-cols-2 lg:grid-cols-4 gap-5 p-4 '>
         {Object.keys(skills).map((key) => (
