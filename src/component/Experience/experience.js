@@ -4,7 +4,7 @@ const experience = [
   {
     year: 2019,
     heading: 'Beginning',
-    desc: 'Embarking on my developer journey with a college website project—where every line of code becomes a  stepping stone to my passion and interests',
+    desc: 'Embarking on my developer journey with a college website project—where every line of code became a stepping stone to my passion and interests',
     right: svcet,
     mode: 'multiply',
   },
