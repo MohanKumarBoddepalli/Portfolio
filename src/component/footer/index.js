@@ -11,7 +11,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a className="flex gap-2" target="_blank" href='https://github.com/MohanKumarBoddepalli'>
-            github
+            Github
           </a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import experience from './Experience';
 const ImagedComponent = (path, mode) => {
 
   return (
-    <img className={`flex h-48 drop-shadow-[0px 35px 35px rgba(33, 126, 143, 0.23)]`} src={path}></img>
+    <img className={`flex h-48 drop-shadow-[0_35px_35px_rgba(24,102,119,0.25)]`} src={path}></img>
   )
 }
 const details = (heading, desc) => {
