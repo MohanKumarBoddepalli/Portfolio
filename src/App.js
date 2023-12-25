@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='grid grid-cols-1 gap-10'>
       <Profile />
-      <div className='flex flex-col gap-10 lg:px-10 p-4'>
+      <div className='flex flex-col gap-10 p-4'>
         <Skills />
         <Experience />
       </div>
