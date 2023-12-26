@@ -1,9 +1,9 @@
 import experience from './Experience';
 
-const ImagedComponent = (path, mode) => {
+const ImagedComponent = (path, altDesc) => {
 
   return (
-    <img className={`flex h-48 drop-shadow-[0_35px_35px_rgba(24,102,119,0.25)]`} src={path}></img>
+    <img className={`flex h-48 drop-shadow-[0_35px_35px_rgba(24,102,119,0.25)]`} alt={''} src={path}></img>
   )
 }
 const details = (heading, desc) => {
@@ -16,7 +16,6 @@ const details = (heading, desc) => {
 }
 
 const Experience = () => {
-
   return (
     <>
       <div>
@@ -38,7 +37,7 @@ const Experience = () => {
             </div>
             <div className='flex pl-1.5 w-full items-center justify-center lg:justify-start md:justify-start xl:justify-start  h-56'
             >
-              {data.leftImage ? details(data.heading, data.desc) : ImagedComponent(data.right, data.mode)}
+              {data.leftImage ? details(data.heading, data.desc) : ImagedComponent(data.right, data.altDesc)}
             </div>
           </div>
         )
@@ -65,4 +64,4 @@ const Experience = () => {
 
 }
 
-export default Experience
+export default Experience;

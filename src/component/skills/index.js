@@ -31,7 +31,6 @@ const Skills = () => {
                 return (
                   <div className={` flex bg-clip-text text-transparent rounded-md
                   border px-4 py-1 ${generateRandomColor()}
-                  font-mono
                   font-medium
                   text-base 
                   leading-6
