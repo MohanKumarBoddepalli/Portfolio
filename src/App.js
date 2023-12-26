@@ -13,9 +13,9 @@ function App() {
         <Skills />
         <Experience />
       </div>
-      <div>
-      <Footer />
-      </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
