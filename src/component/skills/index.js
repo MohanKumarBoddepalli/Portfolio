@@ -29,7 +29,7 @@ const Skills = () => {
             <div key={key} className='flex flex-wrap gap-2 p-4  '>
               {skills[key] && skills[key].map(data => {
                 return (
-                  <div className={` flex bg-clip-text text-transparent rounded-md
+                  <div className={` flex bg-clip-text rounded-md
                   border px-4 py-1 ${generateRandomColor()}
                   font-medium
                   text-base 
