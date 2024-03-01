@@ -731,9 +731,9 @@ video {
 .text-red-700\/60 {
   color: rgb(185 28 28 / 0.6);
 }
-.text-slate-700 {
+.text-slate-400 {
   --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);

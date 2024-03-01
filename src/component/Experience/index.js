@@ -10,7 +10,7 @@ const details = (heading, desc) => {
   return (
     <div className='flex flex-col rounded-md '>
       <div className='p-2'>{heading}</div>
-      <div className='gap-2 p-4 text-slate-700'>{desc}</div>
+      <div className='gap-2 p-4 text-slate-400'>{desc}</div>
     </div>
   )
 }
