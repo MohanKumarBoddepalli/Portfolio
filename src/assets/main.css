@@ -515,6 +515,12 @@ video {
 .h-full {
   height: 100%;
 }
+.min-h-\[5vh\] {
+  min-height: 5vh;
+}
+.min-h-\[95vh\] {
+  min-height: 95vh;
+}
 .min-h-screen {
   min-height: 100vh;
 }
