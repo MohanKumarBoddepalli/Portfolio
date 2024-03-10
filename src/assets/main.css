@@ -551,6 +551,9 @@ video {
 .place-items-center {
   place-items: center;
 }
+.content-baseline {
+  align-content: baseline;
+}
 .items-center {
   align-items: center;
 }
@@ -777,10 +780,6 @@ video {
     flex: 1 1 0%;
   }
 
-  .md\:justify-start {
-    justify-content: flex-start;
-  }
-
   .md\:gap-10 {
     gap: 2.5rem;
   }
@@ -800,10 +799,6 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:justify-start {
-    justify-content: flex-start;
-  }
-
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -817,10 +812,6 @@ video {
 
   .xl\:w-3\/5 {
     width: 60%;
-  }
-
-  .xl\:justify-start {
-    justify-content: flex-start;
   }
 }
 @media (min-width: 1536px) {
