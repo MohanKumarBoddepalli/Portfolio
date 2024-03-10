@@ -3,7 +3,7 @@ import experience from './Experience';
 const ImagedComponent = (path, altDesc) => {
 
   return (
-    <img className={`flex xs:h-24 lg:h-32 md:h-48 items-center justify-center alidrop-shadow-[0_35px_35px_rgba(24,102,119,0.25)]`} alt={''} src={path}></img>
+    <img className={`flex xs:h-24 lg:h-32 md:h-48 xl:h-48 2xl:h-48 items-center justify-center alidrop-shadow-[0_35px_35px_rgba(24,102,119,0.25)]`} alt={''} src={path}></img>
   )
 }
 const details = (heading, desc) => {
@@ -24,8 +24,8 @@ const Experience = () => {
       </div>
       <div className='flex flex-col w-full justify-center place-items-center items-center'>
         {experience.map((data) =>
-          <div className="flex w-full xl:w-3/5  grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
-            <div className='flex p-2 pl-1.5 w-full items-center justify-center lg:justify-start md:justify-start xl:justify-start  h-4/5'>
+          <div className="flex w-full xl:w-3/5 grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
+            <div className='flex p-2 pl-1.5 w-full items-center justify-center min-h-80'>
               {data.leftImage ? ImagedComponent(data.right, data.mode) : details(data.heading, data.desc)}
             </div>
             <div className=" w-px h-full justify-center items-center flex bg-gray-200">
@@ -35,7 +35,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className='flex p-2 pl-1.5 w-full items-center justify-center lg:justify-start md:justify-start xl:justify-start  h-4/5'
+            <div className='flex p-2 pl-1.5 w-full items-center justify-center h-4/5'
             >
               {data.leftImage ? details(data.heading, data.desc) : ImagedComponent(data.right, data.altDesc)}
             </div>
