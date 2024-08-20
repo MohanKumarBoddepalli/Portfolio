@@ -106,6 +106,7 @@ const ContactForm = () => {
       </form>
       <iframe
         name="iframe"
+        title='test'
         style={{ position: 'absolute', visibility: 'hidden' }}
         ref={iframeRef} // Reference to the iframe element
       ></iframe>
