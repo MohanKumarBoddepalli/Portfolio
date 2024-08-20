@@ -23,13 +23,13 @@ const Skills = () => {
     <div className='flex flex-1 flex-col'>
       <div className='flex flex-1 flex-col p-2 text-lg leading-9 font-bold'>Proficiencies</div>
       <div className='grid grid-cols-1 rounded-md sm:grid-cols-2 lg:grid-cols-4 gap-5 p-4 '>
-        {Object.keys(skills).map((key) => (
-          <div className='flex  flex-1 flex-col bg-slate-700 p-4 rounded-md'>
+        {Object.keys(skills).map((key, index) => (
+          <div key={index} className='flex  flex-1 flex-col bg-slate-700 p-4 rounded-md'>
             <div className='p-2'>{key}</div>
             <div key={key} className='flex flex-wrap gap-2 p-4  '>
-              {skills[key] && skills[key].map(data => {
+              {skills[key] && skills[key].map((data, index) => {
                 return (
-                  <div className={` flex bg-clip-text rounded-md
+                  <div key={index} className={` flex bg-clip-text rounded-md
                   border px-4 py-1 ${generateRandomColor()}
                   font-medium
                   text-base 

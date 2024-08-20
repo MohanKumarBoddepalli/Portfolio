@@ -23,8 +23,8 @@ const Experience = () => {
         <h2 className="flex items-center justify-center font-semibold">The Adventure of Learning Code</h2>
       </div>
       <div className='flex flex-col w-full justify-center place-items-center items-center'>
-        {experience.map((data) =>
-          <div className="flex w-full xl:w-3/5 grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
+        {experience.map((data, index) =>
+          <div ket={index} className="flex w-full xl:w-3/5 grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
             <div className='flex p-2 pl-1.5 w-full items-center justify-center min-h-80'>
               {data.leftImage ? ImagedComponent(data.right, data.mode) : details(data.heading, data.desc)}
             </div>
@@ -51,9 +51,9 @@ const Experience = () => {
           height="24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          // stroke-width="2"
+          // stroke-linecap="round"
+          // stroke-linejoin="round"
         >
           <path d="M12 2L2 12 12 22 22 12l-2-2-4 4-4-4-2 2M2 12h4v4h4v-4h4L12 2z"></path>
         </svg>

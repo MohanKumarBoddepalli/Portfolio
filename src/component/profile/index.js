@@ -22,7 +22,7 @@ const Profile = () => {
                                     <a target="_blank" href='https://www.linkedin.com/in/mohan-kumar-boddepalli/'>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            class="h-6 w-5 hidden md:block"
+                                            className="h-6 w-5 hidden md:block"
                                             fill="currentColor"
                                             viewBox="0 0 24 24">
                                             <path
@@ -33,7 +33,7 @@ const Profile = () => {
                                     <a target="_blank" href='https://www.instagram.com/__m_o_h_a_n__b/'>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            class="h-6 w-5 hidden md:block"
+                                            className="h-6 w-5 hidden md:block"
                                             fill="currentColor"
                                             viewBox="0 0 24 24">
                                             <path

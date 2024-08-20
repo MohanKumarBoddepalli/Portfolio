@@ -4,6 +4,7 @@ import Profile from "./component/profile/index";
 import Skills from "./component/skills";
 import Experience from "./component/Experience";
 import Footer from "./component/footer";
+import Contact from "./component/contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <div className="flex flex-col gap-10 p-4">
           <Skills />
           <Experience />
+          <Contact/>
         </div>
       </div>
       <footer className="min-h-[5vh]">
