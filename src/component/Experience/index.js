@@ -1,4 +1,4 @@
-import experience from './Experience';
+import experience from './experience';
 
 const ImagedComponent = (path, altDesc) => {
 
