@@ -1,6 +1,8 @@
 {
   "short_name": "Mohan Kumar",
   "name": "Mohan Kumar Boddepalli",
+  "description": "Experienced Software Developer skilled in Node.js, JavaScript, ReactJS, PostgreSQL, RabbitMQ, and Redis. Specializing in RESTful APIs, security, debugging, and optimization.",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +10,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "favicon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

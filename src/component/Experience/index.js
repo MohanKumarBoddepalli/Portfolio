@@ -24,7 +24,7 @@ const Experience = () => {
       </div>
       <div className='flex flex-col w-full justify-center place-items-center items-center'>
         {experience.map((data, index) =>
-          <div ket={index} className="flex w-full xl:w-3/5 grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
+          <div key={index} className="flex w-full xl:w-3/5 grid-cols-3 size-full gap-2 items-center h-4/5 gap-x-10 justify-center place-items-center">
             <div className='flex p-2 pl-1.5 w-full items-center justify-center min-h-80'>
               {data.leftImage ? ImagedComponent(data.right, data.mode) : details(data.heading, data.desc)}
             </div>

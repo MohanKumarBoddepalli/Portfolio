@@ -1,4 +1,4 @@
-import profile from '../../assets/img/profile.jpg'
+import profile from '../../assets/img/profile.png'
 
 const Profile = () => {
     return (
@@ -12,12 +12,12 @@ const Profile = () => {
                         </div>
                         <div className='flex md:flex-1 flex-col justify-center gap-4'>
                             <div className='flex justify-between items-center gap-5 '>
-                                <div className='text-3xl flex flex-col font-bold text-highlight'>
+                                <h1 className='text-3xl flex flex-col font-bold text-highlight' title='Mohan Kumar Boddepalli'>
                                     Mohan Kumar
-                                    <div className='text-lg ms-8 flex gap-4 justify-between items-center'>
+                                    <h1 className='text-lg ms-8 flex gap-4 justify-between items-center'>
                                         Boddepalli
-                                    </div>
-                                </div>
+                                    </h1>
+                                </h1>
                                 <div className='text-sm font-thin flex gap-3 justify-between items-center'>
                                     <a target="_blank" href='https://www.linkedin.com/in/mohan-kumar-boddepalli/'>
                                         <svg
